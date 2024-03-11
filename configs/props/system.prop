@@ -26,7 +26,7 @@ telephony.lteOnCdmaDevice=1
 persist.sys.fflag.override.settings_provider_model=false
 
 # System Server
-arm64.memtag.process.system_server=off
+persist.arm64.memtag.system_server=off
 
 # WiFi
 wifi.interface=wlan0
