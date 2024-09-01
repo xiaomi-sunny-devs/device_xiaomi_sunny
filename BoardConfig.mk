@@ -49,6 +49,9 @@ BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
+# APN
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Board
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board-info.txt

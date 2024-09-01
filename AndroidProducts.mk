@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sunny.mk
+    $(LOCAL_DIR)/calyx_sunny.mk
