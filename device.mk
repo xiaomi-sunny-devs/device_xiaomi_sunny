@@ -23,6 +23,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Viper
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Sign
+-include vendor/calyx-priv/keys/keys.mk
+
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti \
     android.hardware.boot@1.2-impl-qti.recovery \
